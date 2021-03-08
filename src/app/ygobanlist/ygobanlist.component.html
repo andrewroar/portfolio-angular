@@ -1,0 +1,7 @@
+<p>ygobanlist works!</p>
+<ul>
+  <li *ngFor="let cards of banlist">
+    <label>{{ cards.name }} : {{ cards.desc }}</label>
+    <a href="banlist/{{ cards.id }}"><button>More Details</button></a>
+  </li>
+</ul>
